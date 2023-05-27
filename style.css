@@ -1,0 +1,131 @@
+body{
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    position: relative;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 3px solid ;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+.image{
+    height: 5rem;
+    width: 5rem;
+}
+.logo_name{
+    font-size: 2rem;
+    font-family: Arial;
+    color: gray;
+    padding-right: 1rem;
+}
+.list{
+    display: flex;
+    width: 15rem;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 2rem ;
+    padding: 1rem;
+}
+.books{
+    text-align: center;
+    margin: 2rem;
+}
+.tbl{
+    width: 80%;
+    margin-left: 3rem;
+}
+.add{
+    background-color: #17d546;
+    border-radius:15% ;
+    cursor: pointer;
+    padding: 1.2rem;
+    -webkit-border-radius:15% ;
+    -moz-border-radius:15% ;
+    -ms-border-radius:15% ;
+    -o-border-radius:15% ;
+    color: white;
+    margin: 2rem;
+}
+
+.add:hover{
+    background-color: #e1306c;
+    color: white;
+}
+
+.popUp{
+    visibility:hidden;
+    
+}
+.form_container{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 18%;
+    left: 40%;
+    z-index: 2000;
+    background-color: white;
+    padding: 2rem;
+    border: .5rem solid  #17d546;
+    border-radius: 7%;
+    -webkit-border-radius: 7%;
+    -moz-border-radius: 7%;
+    -ms-border-radius: 7%;
+    -o-border-radius: 7%;
+}
+.exit{
+    position: relative;
+    left: 90%;
+    padding: 4px;
+    border: 1px solid;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.group_input{
+    width: 100%;
+    display: grid;
+    justify-items: start;
+    margin-top: 1rem;
+}
+.inp{
+    padding: .6rem 0 .6rem .6rem;
+
+    border: 3px solid  #17d546;
+    border-radius: 6%;
+    -webkit-border-radius: 6%;
+    -moz-border-radius: 6%;
+    -ms-border-radius: 6%;
+    -o-border-radius: 6%;
+    margin-top: .5rem;
+    width: 100%;
+}
+
+.inp:hover , .inp:focus , .inp:focus-within , .inp:focus-visible{
+    outline: none;
+    border-color: #e1306c;
+}
+
+.blur{
+    filter: blur(15px);
+    -webkit-filter: blur(15px);
+}
+.small{
+    margin-left: 3.3rem;
+}
+.book{
+    margin-top: 1rem;
+}

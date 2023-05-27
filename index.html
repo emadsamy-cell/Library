@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Library</title>
+</head>
+<body >
+    <div class="" id="blur">
+        <header> 
+            <div class="logo">
+                <span class="logo_name"> 3omda's</span>
+                <div class="logo_image">
+                    <img src="images/logo.png" alt="" class="image">
+                </div>
+            </div>
+            <ul class="list">
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </header>
+        <div class="books">
+            <table class="tbl" id = "table">
+                <tr >
+                    <th>Author</th>
+                    <th>Title</th>
+                    <th>Pages</th>
+                    <th>Status</th>
+                </tr>
+            </table>
+            <button id ="btn" class="add"> add book </button>
+        </div>
+    </div>
+        <div class = "form_container popUp">
+            <form action="#" id="form" class="show">
+                <span class="exit">X</span>
+                <div class="group_input">
+                    <label for="author" class="items">Author Name</label>
+                    <input placeholder="Author Name" type="text" required id="author" name="author" class="inp">
+                </div>
+                <div class="group_input">
+                    <label for="title">title</label>
+                    <input placeholder="Title" type="text" required id="title" name="title" class="inp">
+                </div>
+                <div class="group_input">
+                    <label for="pages">pages</label>
+                    <input type="number" required id="pages" name="pages" class="inp">
+                </div>
+                <div class="group_input" >
+                    <label for="read">Did you read it ?</label>
+                    <select name="read" id="read" class="inp">
+                        <option value=true>
+                            Yes
+                        </option>
+                        <option value=false>
+                            No
+                        </option>
+                    </select>
+                </div>
+                <div class="submit items">
+                    <button type="submit" class="add small" id="submit">Add</button>
+                </div>
+            </form> 
+            
+    </div>
+</body>
+<script src="java.js"></script>
+</html>
