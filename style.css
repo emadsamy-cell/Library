@@ -45,13 +45,13 @@ header{
 }
 .add{
     background-color: #17d546;
-    border-radius:15% ;
+    border-radius:30px ;
     cursor: pointer;
     padding: 1.2rem;
-    -webkit-border-radius:15% ;
-    -moz-border-radius:15% ;
-    -ms-border-radius:15% ;
-    -o-border-radius:15% ;
+    -webkit-border-radius:30px ;
+    -moz-border-radius:30px ;
+    -ms-border-radius:30px ;
+    -o-border-radius:30px ;
     color: white;
     margin: 2rem;
 }
@@ -75,18 +75,18 @@ header{
     background-color: white;
     padding: 2rem;
     border: .5rem solid  #17d546;
-    border-radius: 7%;
-    -webkit-border-radius: 7%;
-    -moz-border-radius: 7%;
-    -ms-border-radius: 7%;
-    -o-border-radius: 7%;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
 }
 .exit{
     position: relative;
     left: 90%;
     padding: 4px;
     border: 1px solid;
-    background-color: red;
+    background-color: rgb(220, 76, 76);
     color: white;
     cursor: pointer;
     border-radius: 50%;
@@ -94,6 +94,9 @@ header{
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
+}
+.exit:hover{
+    box-shadow: 2px 2px 8px black;
 }
 .group_input{
     width: 100%;
